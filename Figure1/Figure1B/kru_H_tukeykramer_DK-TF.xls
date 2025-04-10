@@ -1,0 +1,7 @@
+	DK-TF_effectsize	DK-TF_lowerCI	DK-TF_upperCI	DK-TF_pvalue
+ace	497.8	352.4	643.2	< 0.001
+chao	528.7	395.4	662	< 0.001
+sobs	433.9	326.7	541	< 0.001
+shannon	2.41	1.807	3.013	< 0.001
+coverage	-0.0045	-0.00576	-0.00324	< 0.001
+simpson	-0.375	-0.4593	-0.2907	< 0.001

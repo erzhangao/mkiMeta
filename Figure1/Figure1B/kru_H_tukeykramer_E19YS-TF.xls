@@ -1,0 +1,7 @@
+	E19YS-TF_effectsize	E19YS-TF_lowerCI	E19YS-TF_upperCI	E19YS-TF_pvalue
+ace	183.6	37	330.1	< 0.01
+chao	231.1	96.76	365.5	< 0.001
+sobs	225.7	117.7	333.6	< 0.001
+shannon	2.606	1.998	3.214	< 0.001
+coverage	-0.0007	-0.00197	0.0005703	>= 0.1
+simpson	-0.3536	-0.4386	-0.2686	< 0.001

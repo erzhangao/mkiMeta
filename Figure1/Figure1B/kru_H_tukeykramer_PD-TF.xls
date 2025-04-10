@@ -1,0 +1,7 @@
+	PD-TF_effectsize	PD-TF_lowerCI	PD-TF_upperCI	PD-TF_pvalue
+ace	201.2	52.06	350.3	< 0.01
+chao	246.1	109.4	382.8	< 0.001
+sobs	216.5	106.6	326.3	< 0.001
+shannon	1.124	0.5058	1.743	< 0.001
+coverage	-0.0018	-0.003092	-0.0005076	< 0.001
+simpson	-0.1461	-0.2326	-0.05961	< 0.001

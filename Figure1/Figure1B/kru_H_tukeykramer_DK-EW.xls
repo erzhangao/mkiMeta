@@ -1,0 +1,7 @@
+	DK-EW_effectsize	DK-EW_lowerCI	DK-EW_upperCI	DK-EW_pvalue
+ace	415.3	268.7	561.9	< 0.001
+chao	400.5	266.1	534.9	< 0.001
+sobs	304.8	196.8	412.8	< 0.001
+shannon	1.415	0.807	2.023	< 0.001
+coverage	-0.004	-0.00527	-0.00273	< 0.001
+simpson	-0.2146	-0.2996	-0.1296	< 0.001

@@ -1,0 +1,7 @@
+	D7MS-EW_effectsize	D7MS-EW_lowerCI	D7MS-EW_upperCI	D7MS-EW_pvalue
+ace	671.5	524.9	818.1	< 0.001
+chao	619.6	485.2	754	< 0.001
+sobs	443.6	335.6	551.6	< 0.001
+shannon	1.701	1.093	2.309	< 0.001
+coverage	-0.0069	-0.00817	-0.00563	< 0.001
+simpson	-0.2241	-0.3092	-0.1391	< 0.001

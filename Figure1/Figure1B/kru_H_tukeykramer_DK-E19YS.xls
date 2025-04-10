@@ -1,0 +1,7 @@
+	DK-E19YS_effectsize	DK-E19YS_lowerCI	DK-E19YS_upperCI	DK-E19YS_pvalue
+ace	314.2	167.6	460.8	< 0.001
+chao	297.6	163.2	432	< 0.001
+sobs	208.2	100.2	316.2	< 0.001
+shannon	-0.196	-0.804	0.412	>= 0.1
+coverage	-0.0038	-0.00507	-0.00253	< 0.001
+simpson	-0.0214	-0.1064	0.06361	>= 0.1

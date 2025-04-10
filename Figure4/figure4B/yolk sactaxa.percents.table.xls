@@ -1,0 +1,21 @@
+OTU ID	E19LP	E19SS
+d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Rhodococcus	0.0400112648713	0.311921963803
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Delftia	0.236792987018	0.0495538242141
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	0.162390909009	0.0128609777069
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter	0.0988192856993	0.0473517815574
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus	0.0174515625515	0.109399576369
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus	0.0824342907475	0.0221619864522
+d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__Kocuria	0.0409639853677	7.86443805969e-05
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Ruminococcus_torques_group	0.000449396460553	0.0361344714049
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Aquabacterium	0.00360715559004	0.0328209215024
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia	0.0197374925475	0.0109158400268
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Pelomonas	0.00282220977228	0.0203453012604
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter	0.000236682135891	0.0222878174611
+d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium	0.0186889008062	0.000136316926368
+d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Rikenellaceae_RC9_gut_group	0.000236682135891	0.0170605876308
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Erysipelotrichales; f__Erysipelatoclostridiaceae; g__Erysipelatoclostridium	0.00166276690405	0.0131467189564
+d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides	0.00131822961762	0.0119015162637
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas	0.0108903742274	0.00143132772686
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Subdoligranulum	0.0017077065501	0.0100350229642
+d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia	0.0108783903218	0.000833630434327
+others	0.248899727666	0.269621772959

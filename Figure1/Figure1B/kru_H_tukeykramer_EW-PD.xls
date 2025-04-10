@@ -1,0 +1,7 @@
+	EW-PD_effectsize	EW-PD_lowerCI	EW-PD_upperCI	EW-PD_pvalue
+ace	-118.7	-269	31.55	>= 0.1
+chao	-117.9	-255.6	19.84	>= 0.1
+sobs	-87.4	-198.1	23.29	>= 0.1
+shannon	-0.129	-0.7523	0.4943	>= 0.1
+coverage	0.0013	-2.23e-06	0.002602	< 0.1
+simpson	-0.0143	-0.1014	0.07285	>= 0.1

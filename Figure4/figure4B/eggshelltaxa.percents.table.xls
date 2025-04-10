@@ -1,0 +1,13 @@
+OTU ID	DKLP	DKSS
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus	0.253585800981	0.439146294224
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	0.288930016355	0.0123498967031
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Delftia	0.234247223896	0.0637589308772
+d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Rhodococcus	0.0434223551691	0.191688366187
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Ruminococcus_torques_group	0.0093505207885	0.0224267237669
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__unclassified_f__Lachnospiraceae	0.00659324696565	0.0141387621589
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridia_UCG-014; f__norank_o__Clostridia_UCG-014; g__norank_f__norank_o__Clostridia_UCG-014	0.00572167943531	0.0127507101661
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Romboutsia	0.00765580614617	0.0104561203409
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter	1.61401394508e-05	0.0170977877249
+d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Subdoligranulum	0.00578623999311	0.0108273435482
+d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas	0.013194564001	8.0700697254e-05
+others	0.131496406129	0.205278363605

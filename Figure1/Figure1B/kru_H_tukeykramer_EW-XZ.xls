@@ -1,0 +1,7 @@
+	EW-XZ_effectsize	EW-XZ_lowerCI	EW-XZ_upperCI	EW-XZ_pvalue
+ace	-310.4	-460.7	-160.1	< 0.001
+chao	-290.4	-428.1	-152.7	< 0.001
+sobs	-196.3	-307	-85.61	< 0.001
+shannon	-1.135	-1.758	-0.5117	< 0.001
+coverage	0.0032	0.001898	0.004502	< 0.001
+simpson	0.1968	0.1097	0.2839	< 0.001

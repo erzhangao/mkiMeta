@@ -1,0 +1,7 @@
+	D7MS-MS_effectsize	D7MS-MS_lowerCI	D7MS-MS_upperCI	D7MS-MS_pvalue
+ace	-289.2	-434.6	-143.8	< 0.001
+chao	-256.2	-389.5	-122.9	< 0.001
+sobs	-192.5	-299.6	-85.38	< 0.001
+shannon	-0.225	-0.8281	0.3781	>= 0.1
+coverage	0.0029	0.00164	0.00416	< 0.001
+simpson	0.00976	-0.07457	0.09409	>= 0.1

@@ -1,0 +1,7 @@
+	EW-MS_effectsize	EW-MS_lowerCI	EW-MS_upperCI	EW-MS_pvalue
+ace	-960.7	-1107	-814.1	< 0.001
+chao	-875.8	-1010	-741.4	< 0.001
+sobs	-636.1	-744.1	-528.1	< 0.001
+shannon	-1.926	-2.534	-1.318	< 0.001
+coverage	0.0098	0.00853	0.01107	< 0.001
+simpson	0.2339	0.1489	0.3189	< 0.001

@@ -1,0 +1,7 @@
+	E19YS-MS_effectsize	E19YS-MS_lowerCI	E19YS-MS_upperCI	E19YS-MS_pvalue
+ace	-859.6	-1006	-713	< 0.001
+chao	-772.9	-907.3	-638.5	< 0.001
+sobs	-539.5	-647.5	-431.5	< 0.001
+shannon	-0.315	-0.923	0.293	>= 0.1
+coverage	0.0096	0.00833	0.01087	< 0.001
+simpson	0.0407	-0.04431	0.1257	>= 0.1

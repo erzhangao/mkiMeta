@@ -1,0 +1,7 @@
+	PD-XZ_effectsize	PD-XZ_lowerCI	PD-XZ_upperCI	PD-XZ_pvalue
+ace	-191.7	-344.4	-38.96	< 0.01
+chao	-172.5	-312.5	-32.49	< 0.01
+sobs	-108.9	-221.4	3.619	< 0.1
+shannon	-1.006	-1.64	-0.3724	< 0.001
+coverage	0.0019	0.0005762	0.003224	< 0.001
+simpson	0.2111	0.1225	0.2997	< 0.001

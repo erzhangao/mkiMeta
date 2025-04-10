@@ -1,0 +1,8 @@
+OTU表： pwconda
+分类水平： OTU
+分组方案： pwconda	
+		PCON: pwA1, pwA2, pwA3, pwA5, pwA6, pwA7
+		PDA: pwE1, pwE2, pwE3, pwE4, pwE5, pwE6, pwE7, pwE8
+距离算法： unweighted_unifrac
+组间差异检验： ANOSIM
+置换次数： 999

@@ -1,0 +1,7 @@
+	E19YS-XZ_effectsize	E19YS-XZ_lowerCI	E19YS-XZ_upperCI	E19YS-XZ_pvalue
+ace	-209.3	-359.6	-59.05	< 0.001
+chao	-187.5	-325.2	-49.76	< 0.01
+sobs	-99.7	-210.4	10.99	>= 0.1
+shannon	0.476	-0.1473	1.099	>= 0.1
+coverage	0.003	0.001698	0.004302	< 0.001
+simpson	0.0036	-0.08355	0.09075	>= 0.1

@@ -1,0 +1,7 @@
+	MS-TF_effectsize	MS-TF_lowerCI	MS-TF_upperCI	MS-TF_pvalue
+ace	1043	897.8	1189	< 0.001
+chao	1004	870.7	1137	< 0.001
+sobs	765.2	658	872.3	< 0.001
+shannon	2.921	2.318	3.524	< 0.001
+coverage	-0.0103	-0.01156	-0.00904	< 0.001
+simpson	-0.3943	-0.4786	-0.31	< 0.001

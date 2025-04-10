@@ -1,0 +1,7 @@
+	MS-PD_effectsize	MS-PD_lowerCI	MS-PD_upperCI	MS-PD_pvalue
+ace	842	692.9	991.1	< 0.001
+chao	757.9	621.2	894.6	< 0.001
+sobs	548.7	438.8	658.6	< 0.001
+shannon	1.797	1.178	2.416	< 0.001
+coverage	-0.0085	-0.009792	-0.007208	< 0.001
+simpson	-0.2482	-0.3347	-0.1617	< 0.001

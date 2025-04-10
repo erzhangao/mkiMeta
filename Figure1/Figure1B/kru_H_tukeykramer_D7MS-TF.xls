@@ -1,0 +1,7 @@
+	D7MS-TF_effectsize	D7MS-TF_lowerCI	D7MS-TF_upperCI	D7MS-TF_pvalue
+ace	754	608.6	899.4	< 0.001
+chao	747.8	614.5	881.1	< 0.001
+sobs	572.7	465.5	679.8	< 0.001
+shannon	2.696	2.093	3.299	< 0.001
+coverage	-0.0074	-0.00866	-0.00614	< 0.001
+simpson	-0.3845	-0.4689	-0.3002	< 0.001

@@ -1,0 +1,7 @@
+	D7MS-DK_effectsize	D7MS-DK_lowerCI	D7MS-DK_upperCI	D7MS-DK_pvalue
+ace	256.2	110.8	401.6	< 0.001
+chao	219.1	85.81	352.4	< 0.001
+sobs	138.8	31.68	245.9	< 0.01
+shannon	0.286	-0.3171	0.8891	>= 0.1
+coverage	-0.0029	-0.00416	-0.00164	< 0.001
+simpson	-0.00954	-0.09387	0.07479	>= 0.1

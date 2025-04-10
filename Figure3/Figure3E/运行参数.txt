@@ -1,0 +1,8 @@
+OTU表： ConSS
+分类水平： OTU
+分组方案： LPSS	
+		MSLP: MSB1, MSB2, MSB3, MSB4, MSB6, MSB7, MSB8
+		MsSS: MSF1, MSF2, MSF3, MSF5, MSF6, MSF7, MSF8
+距离算法： weighted_unifrac
+组间差异检验： ANOSIM
+置换次数： 999

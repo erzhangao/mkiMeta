@@ -1,0 +1,7 @@
+	DK-PD_effectsize	DK-PD_lowerCI	DK-PD_upperCI	DK-PD_pvalue
+ace	296.6	147.5	445.7	< 0.001
+chao	282.6	145.9	419.3	< 0.001
+sobs	217.4	107.5	327.3	< 0.001
+shannon	1.286	0.6675	1.905	< 0.001
+coverage	-0.0027	-0.003992	-0.001408	< 0.001
+simpson	-0.2289	-0.3154	-0.1424	< 0.001

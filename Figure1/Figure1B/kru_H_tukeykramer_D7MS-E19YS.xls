@@ -1,0 +1,7 @@
+	D7MS-E19YS_effectsize	D7MS-E19YS_lowerCI	D7MS-E19YS_upperCI	D7MS-E19YS_pvalue
+ace	570.4	423.8	717	< 0.001
+chao	516.7	382.3	651.1	< 0.001
+sobs	347	239	455	< 0.001
+shannon	0.09	-0.518	0.698	>= 0.1
+coverage	-0.0067	-0.00797	-0.00543	< 0.001
+simpson	-0.03094	-0.116	0.05407	>= 0.1

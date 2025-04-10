@@ -1,0 +1,9 @@
+OTU表： ConSS
+分类水平： Genus
+检验方法： wilcoxon秩和检验
+分组方案： LPSS	
+		MSLP: MSB1, MSB2, MSB3, MSB4, MSB5, MSB6, MSB7, MSB8
+		MsSS: MSF1, MSF2, MSF3, MSF4, MSF5, MSF6, MSF7, MSF8
+单双尾检验： 双尾检验
+多重检验校正： fdr
+CI计算方法： bootstrap	0.95

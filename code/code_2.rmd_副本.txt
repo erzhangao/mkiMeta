@@ -1,0 +1,119 @@
+###############
+library(tidyr)
+library(edgeR)
+library(indicspecies)
+library(igraph)
+
+####################
+setwd("D:/data/测试数据") 
+
+# 读入OTU丰度表
+abundtab <- read.csv("otu_taxon_otu.full.csv",row.names = 1)
+# 读入元数据
+grouptab <- read.csv("test_design1.csv") 
+
+
+# 匹配样品数据,可跳过
+# abundtab <- abundtab[grouptab$Sample]
+# abundtab <- abundtab[rowSums(abundtab)>0, ] #过滤丰度为0的物种
+
+# TMM normalize counts
+community_edgeR <- DGEList(counts=abundtab,group=grouptab$Group)
+community_edgeR <- calcNormFactors(community_edgeR, method="TMM")
+
+# Get TMM normalized counts expressed as relative abundance counts per million
+community_cpm_norm <- cpm(community_edgeR, normalized.lib.sizes=T, log=F)
+
+
+# 指示物种分析
+indic_tab <- as.data.frame(t(community_cpm_norm), check.names=F)
+set.seed(8046)
+indicatorsp_obj <- multipatt(indic_tab, grouptab$Group, func="r.g", control=how(nperm=99))
+
+# summary(indicatorsp_obj, alpha=1, indvalcomp=T)
+indic_result <- indicatorsp_obj$sign
+head(indic_result)
+colnames(indic_result) <- gsub("^s\\.", "", colnames(indic_result))
+
+#dat <- cbind(feature=rownames(indic_result), indic_result, taxonomy[rownames(indic_result), ])
+#write.table(dat, "indicspecies_result.xls", sep="\t", quote=F, row.names=F)
+
+
+dat <-indic_result
+dat <- dat[!is.na(dat$p.value) & dat$p.value < 0.05, ]
+dat$feature=rownames(dat)
+
+write.csv(dat,"edgesdf1.csv")
+
+library(UpSetR)
+
+upset(dat[,1:8],
+      # 数据集数量：
+      nsets = 7,
+      # 柱形的最大数目：
+      #nintersects = 30,
+      # 柱形图与矩阵图大小比例：
+      mb.ratio = c(0.5, 0.5),
+      # 柱形的排序方式：freq -- 柱形高度排序；degree -- 数据集的数量排序；
+      order.by = c("freq", "degree"), decreasing = c(TRUE, FALSE))
+
+
+
+# 准备边文件
+edgesdf <- dat[, c("feature", unique(grouptab$Group), "stat", "p.value")]
+edgesdf <- gather(edgesdf, treat, value, unique(grouptab$Group))
+edgesdf <- edgesdf[edgesdf$value == 1, ] #过滤不相关的边
+edgesdf <- edgesdf[, c("treat", "feature", "stat", "p.value")] #调整列顺序
+colnames(edgesdf) <- c("source", "target", "Rval", "Pval") #列明重命名
+head(edgesdf)
+
+
+write.csv(edgesdf,"edgesdf.csv")
+
+
+# 准备节点文件
+nodesdf <- dat[, c("feature","index")]
+colnames(nodesdf)[1] <- "id"
+
+# # 按纲分配颜色，未知分类设置为灰色（#BEBEBE）
+# alltaxas <- names(sort(table(nodesdf[, "id"]), decreasing=T))
+# myPalette <- c("#FF7069", "#D8F08C", "#CD998C", "#FFF6DB", "#7FD8FF", "#00FF0A", "#CDC5B0", "#66AECD", "#98B3FF", "#EEA421", "#64CD5A", "#FF0700", "#8B3E3A", "#EED50E")
+# taxacolors_legend <- myPalette[1:length(alltaxas)]
+# names(taxacolors_legend) <- alltaxas
+# if(any(names(taxacolors_legend)=="Others")) taxacolors_legend["Others"] <- "#BEBEBE"
+# nodesdf$color <- taxacolors_legend[nodesdf[, "id"]]
+
+nodesdf$color <-  "#66AECD"
+# 设置节点大小
+nodesdf$size <- 2
+# 添加分组节点
+tmp <- as.data.frame(matrix(NA, nrow=length(unique(edgesdf$source)), ncol=ncol(nodesdf), dimnames=list(NULL, colnames(nodesdf))), check.name=F)
+tmp$id <- unique(edgesdf$source); tmp$color = "#FF7069"; tmp$size = 10
+tmp
+
+nodesdf <- rbind(tmp, nodesdf)
+head(nodesdf, 7)
+
+# 绘制二分网络图
+network_obj <- graph_from_data_frame(edgesdf, direct=F, vertices=nodesdf)
+V(network_obj)$label <- V(network_obj)$name
+V(network_obj)$label[!V(network_obj)$label %in% unique(edgesdf$source)] <- NA
+V(network_obj)$shape <- "circle"
+V(network_obj)$frame.color <- V(network_obj)$color
+set.seed(8046)
+
+#png("bipartite_network.png", width=4800, height=3600, res=600) 
+
+plot(
+  network_obj, 
+  layout=layout_with_fr(network_obj, niter=9999), 
+  vertex.label.cex=1,
+  vertex.label.font=2,
+  vertex.label.color="black",
+  edge.width=0.1,
+  edge.color="gray90",
+  rescale=T, asp=0, margin=c(0, 0, 0, 0)
+)
+#legend("topright", pch=16, legend=names(taxacolors_legend), bty="n", col=taxacolors_legend, pt.cex=1.8, cex=0.85, adj=c(0, 0.3), title="Node color (Class):", title.adj=0)
+
+#dev.off()

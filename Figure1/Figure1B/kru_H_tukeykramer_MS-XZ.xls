@@ -1,0 +1,7 @@
+	MS-XZ_effectsize	MS-XZ_lowerCI	MS-XZ_upperCI	MS-XZ_pvalue
+ace	650.3	501.2	799.4	< 0.001
+chao	585.4	448.7	722.1	< 0.001
+sobs	439.8	329.9	549.7	< 0.001
+shannon	0.791	0.1725	1.41	< 0.01
+coverage	-0.0066	-0.007892	-0.005308	< 0.001
+simpson	-0.0371	-0.1236	0.04939	>= 0.1

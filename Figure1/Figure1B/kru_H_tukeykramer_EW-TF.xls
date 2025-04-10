@@ -1,0 +1,7 @@
+	EW-TF_effectsize	EW-TF_lowerCI	EW-TF_upperCI	EW-TF_pvalue
+ace	82.47	-64.1	229	>= 0.1
+chao	128.2	-6.141	262.6	< 0.1
+sobs	129.1	21.08	237	< 0.01
+shannon	0.9953	0.3873	1.603	< 0.001
+coverage	-0.0005	-0.00177	0.0007703	>= 0.1
+simpson	-0.1604	-0.2454	-0.07539	< 0.001
